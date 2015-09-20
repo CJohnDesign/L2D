@@ -29,8 +29,8 @@ module.exports = function(grunt) {
 		}, //sass
 		html: {
 			files: ['*.html']
-		}
+		},
 		} //watch
-	}) //initConfig
-	grunt.registerTask('default', 'watch');
+	}); //initConfig
+	grunt.registerTask('default', ['watch']);
 } //exports
