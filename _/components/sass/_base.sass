@@ -1,10 +1,16 @@
 // HTML
 body 
   background: $ld-black 
-  color: $ld-teal
+  color 	: $ld-white
+  h2
+    font-family 	: 'Titillium Web', sans-serif
+    color 			: $ld-teal
+    font-weight 	: 700
+  p
+    font-family 	: 'Titillium Web', sans-serif
+    color 			: $ld-white
+    font-weight 	: 400
 
-h1
-  color 	: $ld-teal
 
 
 
@@ -54,7 +60,20 @@ h1
 // Main Content
 
 #titlepage 
-  height 	: 94vh
+  height 	: 95vh
+  @include coverbackground('file:///Users/CJohnDesign/Desktop/l2d/img/head-bg.png')
+
+#titlelogo 
+  width 	: 100%
+  margin 	: 37vh auto 0
+  z-index 	: 99
+
+#live 
+  position 	: absolute
+  height 	: 100vh
+  top 		: 0
+  opacity 	: .3
+
 
 .sep
   height 	: 2em
@@ -63,11 +82,42 @@ h1
   -webkit-box-shadow: 0 0px 49px 2px rgba(53, 251, 249, 0.35)
   -moz-box-shadow: 0 0px 49px 2px rgba(53, 251, 249, 0.35)
   box-shadow: 0 0px 49px 2px rgba(53, 251, 249, 0.35)
-  z-index: 99
+  z-index 	: 1000
+  margin 	: 0 0 2em 0
+
+
+.gun
+  padding 	: 0 !important
+  margin 	: 0 !important
+  padding-right 	: 0 !important
+  padding-left  	: 0 !important
+  .col-md-12 		
+    padding 		: 0 !important
+
+.img-gun
+  background 	: $ld-gun
+  width: 100%
+
+/* no-gutters Class Rules
+  .row
+    margin-right: 0
+    margin-left: 0
+
+  .row > [class^="col-"],
+  .row > [class*=" col-"]
+    padding-right: 0
+    padding-left: 0
+
 
 
 
 
 
 // Footer
+
+// Hacks
+
+.hack-o100
+  opacity 	: 1
+
 
