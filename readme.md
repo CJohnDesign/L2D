@@ -1,5 +1,3 @@
-##L2D Combat's Weapons Catalog
+L2D Combat's Weapons Catalog demo
 
-Custom firearms and accessories
-
-[repository located here](https://github.com/cjohndesign/l2d)
+[View sandbox site](http://l2d.cjohn.design)
